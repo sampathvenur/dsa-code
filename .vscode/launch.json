@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/sem 3/Data Structure Lab With C - CS322L5C/DSA Code",
-      "program": "d:/sem 3/Data Structure Lab With C - CS322L5C/DSA Code/build/Debug/outDebug",
+      "cwd": "d:/sem 3/Data Structure Lab With C - CS322L5C/dsa-code",
+      "program": "d:/sem 3/Data Structure Lab With C - CS322L5C/dsa-code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

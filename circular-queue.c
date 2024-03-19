@@ -79,31 +79,3 @@ int main() {
     }
   }
 }
-
-/*
-
-enqueue(conditions)
-    (starting)       ->   if (front = -1)     -> make, front = 0
-    (Full condition) ->   if (front = (rear+1)%size)   -> print, queue full
-
-    (else) -> (increment rear) -> rear = (rear+1)%size
-           -> (insert new item)-> queue[rear] = item
-
-
-dequeue(conditions)
-    (Empty condition)   ->   if(front = -1)   -> print, queue empty
-    (else)   ->  if ->  (front == rear)   -> make, front = rear - 1
-                 else   -> make, front = (front+1)%size
-
-
-display(conditions)
-    (Empty Condition)
-    
-    (else)    ->  make, i = front
-              ->  while(i != rear)
-                  ->(inside loop)   ->    print queue[i]
-                                    ->    i = (i+1)%size (increment i)
-                  ->(outside loop)  ->    print, queue[i]  (once)
-
-
-*/

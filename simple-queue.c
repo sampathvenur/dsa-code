@@ -42,7 +42,7 @@ int delete(queue *q) {
 void displayQ(queue *q) {
   int i;
   if(q-> rear < q-> front) {
-    printf("Queue is full.");
+    printf("Queue is empty.");
   }
   else {
     no++;
@@ -61,6 +61,7 @@ void displaySorted(int a[]) {
   printf("Group %d: Contents after sorting\n", no2);
   for(int i=0; a[i]!='\0'; i++) {
     printf("%d ", a[i]);
+    a[i] = '\0';
   }
   printf("\n");
 }
